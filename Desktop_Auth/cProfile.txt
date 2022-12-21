@@ -1,0 +1,278 @@
+PS C:\Users\ИСП-20\Desktop\Родин\Desktop_Auth> python -m cProfile "code.py"
+         4340 function calls (4298 primitive calls) in 5.119 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      6/1    0.000    0.000    5.119    5.119 {built-in method builtins.exec}
+        1    0.000    0.000    5.119    5.119 code.py:1(<module>)
+        1    0.000    0.000    4.754    4.754 __init__.py:1483(mainloop)
+        1    4.746    4.746    4.754    4.754 {method 'mainloop' of '_tkinter.tkapp' objects}
+      5/2    0.000    0.000    0.219    0.109 <frozen importlib._bootstrap>:1167(_find_and_load)
+      5/2    0.000    0.000    0.219    0.109 <frozen importlib._bootstrap>:1122(_find_and_load_unlocked)
+      5/2    0.000    0.000    0.217    0.109 <frozen importlib._bootstrap>:666(_load_unlocked)
+      4/2    0.000    0.000    0.217    0.109 <frozen importlib._bootstrap_external>:934(exec_module)
+     12/3    0.000    0.000    0.215    0.072 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+        1    0.000    0.000    0.214    0.214 __init__.py:1(<module>)
+        5    0.000    0.000    0.209    0.042 <frozen importlib._bootstrap>:566(module_from_spec)
+        1    0.000    0.000    0.209    0.209 <frozen importlib._bootstrap_external>:1231(create_module)
+        1    0.209    0.209    0.209    0.209 {built-in method _imp.create_dynamic}
+        1    0.000    0.000    0.137    0.137 __init__.py:2306(__init__)
+        1    0.136    0.136    0.136    0.136 {built-in method _tkinter.create}
+       23    0.017    0.001    0.017    0.001 {method 'call' of '_tkinter.tkapp' objects}
+        6    0.000    0.000    0.009    0.002 __init__.py:2616(__init__)
+        1    0.000    0.000    0.009    0.009 __init__.py:1943(__call__)
+        1    0.000    0.000    0.009    0.009 __init__.py:2364(destroy)
+        3    0.000    0.000    0.008    0.003 __init__.py:3196(__init__)
+        4    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:1007(get_code)
+        5    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:1056(_find_spec)
+        5    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:1496(find_spec)
+        5    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:1464(_get_spec)
+       27    0.003    0.000    0.003    0.000 {built-in method nt.stat}
+       10    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:1604(find_spec)
+       23    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        6    0.000    0.000    0.002    0.000 __init__.py:2633(destroy)
+      6/3    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1209(_handle_fromlist)
+        4    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:727(_compile_bytecode)
+        4    0.002    0.000    0.002    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.002    0.002 {built-in method builtins.__import__}
+        2    0.000    0.000    0.001    0.001 __init__.py:3090(__init__)
+       44    0.001    0.000    0.001    0.000 {built-in method builtins.__build_class__}
+        4    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1127(get_data)
+        8    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        1    0.000    0.000    0.001    0.001 enum.py:1645(convert_class)
+        1    0.000    0.000    0.001    0.001 messagebox.py:1(<module>)
+        7    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.001    0.001 __init__.py:2374(readprofile)
+        2    0.000    0.000    0.001    0.000 __init__.py:225(compile)
+        2    0.000    0.000    0.001    0.000 __init__.py:272(_compile)
+       48    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        2    0.000    0.000    0.000    0.000 _compiler.py:738(compile)
+        4    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1146(path_stats)
+        4    0.000    0.000    0.000    0.000 <frozen genericpath>:27(isfile)
+        1    0.000    0.000    0.000    0.000 __init__.py:2687(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1421(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 _parser.py:970(parse)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1408(_path_hooks)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:437(cache_from_source)
+      4/2    0.000    0.000    0.000    0.000 _parser.py:447(_parse_sub)
+        2    0.000    0.000    0.000    0.000 _compiler.py:571(_code)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:392(cached)
+        1    0.000    0.000    0.000    0.000 __init__.py:4643(<listcomp>)
+        1    0.000    0.000    0.000    0.000 __init__.py:348(namedtuple)
+      4/2    0.000    0.000    0.000    0.000 _parser.py:507(_parse)
+       12    0.000    0.000    0.000    0.000 __init__.py:1524(_options)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:567(_get_cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1655(_fill_cache)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1696(path_hook_for_FileFinder)
+        1    0.000    0.000    0.000    0.000 <frozen zipimport>:64(__init__)
+        2    0.000    0.000    0.000    0.000 _compiler.py:509(_compile_info)
+        4    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+      632    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+        1    0.000    0.000    0.000    0.000 __init__.py:2338(_loadtk)
+      405    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1599(_get_spec)
+       44    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.eval}
+        6    0.000    0.000    0.000    0.000 __init__.py:2436(pack_configure)
+        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+      296    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:778(spec_from_file_location)
+       48    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:119(<listcomp>)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+       42    0.000    0.000    0.000    0.000 enum.py:829(__setattr__)
+  380/376    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        4    0.000    0.000    0.000    0.000 _compiler.py:241(_optimize_charset)
+       39    0.000    0.000    0.000    0.000 enum.py:37(_is_descriptor)
+      4/2    0.000    0.000    0.000    0.000 _compiler.py:37(_compile)
+        1    0.000    0.000    0.000    0.000 __init__.py:2245(wm_protocol)
+       18    0.000    0.000    0.000    0.000 __init__.py:102(_cnfmerge)
+       87    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       39    0.000    0.000    0.000    0.000 enum.py:78(_is_private)
+        6    0.000    0.000    0.000    0.000 __init__.py:2586(_setup)
+      172    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 types.py:164(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:668(Misc)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:103(join)
+      203    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        7    0.000    0.000    0.000    0.000 __init__.py:679(destroy)
+       38    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF88118F90}
+       41    0.000    0.000    0.000    0.000 enum.py:47(_is_dunder)
+        2    0.000    0.000    0.000    0.000 __init__.py:1569(_register)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+       64    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      153    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 enum.py:1503(__and__)
+        5    0.000    0.000    0.000    0.000 __init__.py:62(_stringify)
+       39    0.000    0.000    0.000    0.000 enum.py:58(_is_sunder)
+        1    0.000    0.000    0.000    0.000 enum.py:486(__new__)
+        1    0.000    0.000    0.000    0.000 commondialog.py:1(<module>)
+       51    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1559(__init__)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 __init__.py:4226(Spinbox)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_classify_pyc)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+        9    0.000    0.000    0.000    0.000 <frozen ntpath>:150(splitdrive)
+       10    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:240(basename)
+        5    0.000    0.000    0.000    0.000 __init__.py:89(find_spec)
+        2    0.000    0.000    0.000    0.000 _compiler.py:384(_mk_bitmap)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:778(__contains__)
+       39    0.000    0.000    0.000    0.000 enum.py:224(__set_name__)
+        2    0.000    0.000    0.000    0.000 _parser.py:94(closegroup)
+      4/2    0.000    0.000    0.000    0.000 _compiler.py:434(_get_literal_prefix)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:675(_validate_timestamp_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:206(split)
+        2    0.000    0.000    0.000    0.000 {method 'getvar' of '_tkinter.tkapp' objects}
+      6/4    0.000    0.000    0.000    0.000 _parser.py:172(getwidth)
+        6    0.000    0.000    0.000    0.000 __init__.py:2625(<listcomp>)
+        4    0.000    0.000    0.000    0.000 enum.py:689(__call__)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1032(__exit__)
+        1    0.000    0.000    0.000    0.000 <frozen os>:674(__getitem__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:922(find_spec)
+        1    0.000    0.000    0.000    0.000 __init__.py:2731(Canvas)
+        4    0.000    0.000    0.000    0.000 {method 'deletecommand' of '_tkinter.tkapp' objects}
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1028(__enter__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1997(Wm)
+       10    0.000    0.000    0.000    0.000 _parser.py:252(get)
+       14    0.000    0.000    0.000    0.000 _parser.py:231(__next)
+        1    0.000    0.000    0.000    0.000 __init__.py:3599(Text)
+       10    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        6    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       44    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+       30    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 _compiler.py:386(<listcomp>)
+        4    0.000    0.000    0.000    0.000 _compiler.py:214(_compile_charset)
+        1    0.000    0.000    0.000    0.000 <frozen ntpath>:229(splitext)
+       17    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 _parser.py:222(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:2280(wm_title)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1684(<setcomp>)
+       25    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:599(_check_name_wrapper)
+       19    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(find_spec)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:405(parent)
+       14    0.000    0.000    0.000    0.000 _parser.py:247(match)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1239(exec_module)
+        7    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        8    0.000    0.000    0.000    0.000 _parser.py:162(__getitem__)
+        2    0.000    0.000    0.000    0.000 _parser.py:82(opengroup)
+       36    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'createcommand' of '_tkinter.tkapp' objects}
+       30    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 _parser.py:444(_uniq)
+        2    0.000    0.000    0.000    0.000 _compiler.py:465(_get_charset_prefix)
+       30    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       37    0.000    0.000    0.000    0.000 enum.py:1145(__init__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:3333(Menu)
+        1    0.000    0.000    0.000    0.000 <frozen os>:748(encodekey)
+       28    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        8    0.000    0.000    0.000    0.000 _parser.py:284(tell)
+       14    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       22    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 constants.py:1(<module>)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        1    0.000    0.000    0.000    0.000 <frozen genericpath>:121(_splitext)
+        1    0.000    0.000    0.000    0.000 __init__.py:4428(PanedWindow)
+       12    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       12    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        8    0.000    0.000    0.000    0.000 _parser.py:79(groups)
+        1    0.000    0.000    0.000    0.000 __init__.py:2431(Pack)
+        1    0.000    0.000    0.000    0.000 __init__.py:367(Variable)
+       21    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+       16    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 _parser.py:170(append)
+        1    0.000    0.000    0.000    0.000 __init__.py:2528(Grid)
+       10    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        2    0.000    0.000    0.000    0.000 _parser.py:307(_class_escape)
+       12    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        4    0.000    0.000    0.000    0.000 enum.py:1094(__new__)
+        1    0.000    0.000    0.000    0.000 __init__.py:3217(Listbox)
+        1    0.000    0.000    0.000    0.000 __init__.py:170(EventType)
+        1    0.000    0.000    0.000    0.000 __init__.py:4056(Image)
+        1    0.000    0.000    0.000    0.000 __init__.py:2097(wm_geometry)
+        5    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        6    0.000    0.000    0.000    0.000 _compiler.py:31(_combine_flags)
+        7    0.000    0.000    0.000    0.000 {built-in method _tkinter._flatten}
+        4    0.000    0.000    0.000    0.000 _compiler.py:568(isstring)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       10    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 __init__.py:3087(Entry)
+        6    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+        1    0.000    0.000    0.000    0.000 __init__.py:2301(Tk)
+        7    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 _parser.py:158(__len__)
+        1    0.000    0.000    0.000    0.000 __init__.py:3510(Scale)
+        1    0.000    0.000    0.000    0.000 __init__.py:2477(Place)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1565(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 _parser.py:954(fix_flags)
+        4    0.000    0.000    0.000    0.000 _parser.py:109(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1933(CallWrapper)
+        2    0.000    0.000    0.000    0.000 _parser.py:73(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:2258(wm_resizable)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1097(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        6    0.000    0.000    0.000    0.000 __init__.py:422(<genexpr>)
+        2    0.000    0.000    0.000    0.000 __init__.py:1937(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:3193(Label)
+        1    0.000    0.000    0.000    0.000 __init__.py:4122(PhotoImage)
+        1    0.000    0.000    0.000    0.000 enum.py:192(__get__)
+        5    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        6    0.000    0.000    0.000    0.000 _compiler.py:426(_get_iscased)
+        1    0.000    0.000    0.000    0.000 __init__.py:2583(BaseWidget)
+        6    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        1    0.000    0.000    0.000    0.000 __init__.py:3043(Checkbutton)
+        1    0.000    0.000    0.000    0.000 __init__.py:618(BooleanVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:147(_VersionInfoType)
+        1    0.000    0.000    0.000    0.000 commondialog.py:16(Dialog)
+        1    0.000    0.000    0.000    0.000 <frozen os>:742(check_str)
+        1    0.000    0.000    0.000    0.000 __init__.py:548(StringVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:3549(Scrollbar)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:413(has_location)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+        1    0.000    0.000    0.000    0.000 __init__.py:4017(OptionMenu)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1220(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        6    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 __init__.py:2684(Button)
+        1    0.000    0.000    0.000    0.000 __init__.py:597(DoubleVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:4404(LabelFrame)
+        1    0.000    0.000    0.000    0.000 __init__.py:2646(Widget)
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        2    0.000    0.000    0.000    0.000 __init__.py:96(<lambda>)
+        1    0.000    0.000    0.000    0.000 __init__.py:3463(Menubutton)
+        1    0.000    0.000    0.000    0.000 __init__.py:3470(Message)
+        1    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 enum.py:1246(value)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+
+
+PS C:\Users\ИСП-20\Desktop\Родин\Desktop_Auth>
